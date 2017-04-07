@@ -5,12 +5,22 @@ package com.theironyard.novauc;
  */
 public class Ducati extends Motorcycles {
 
+    // implicit constructor
+    // assigns the value of the instance variable upon creation/initialization
     public Ducati() {
         this.bikeMaker = "Ducati";
         this.wheels = "Road";
         this.make = "Monster";
 
     }
+
+    // explicit constructor
+    public Ducati(String intialBikeMaker, String intialWheels, String intialMake) {
+        this.bikeMaker = intialBikeMaker;
+        this.wheels = intialWheels;
+        this.make = intialMake;
+    }
+
 
 
 
